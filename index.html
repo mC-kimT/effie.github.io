@@ -5,20 +5,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website </title>
-    <link rel="stylesheet" href="./CSS/Style.css">
+    <title> PortFlix - Personal Portfolio Website </title>
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
 <!-- Navbar  Section Start -->
 <header>
-    <a href="#" class="logo">Web <span> Site</span>.</a>
+    <a href="#" class="logo">Web<span>PORTFOLIO</span>.</a>
 
     <div class="bx bx-menu" id="menu-icon"></div>
 
     <ul class="navbar">
-        <li><a href="#home">Home</a></li>
+            <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#certificate">Certificate</a></li>
@@ -29,15 +31,30 @@
 <!-- Navbar Section End -->
 <!-- Home Section Start -->
 <section class="home" id="home">
+    <div class="social">
+        <a href="https://github.com/mC-kimT"><i class='bx bxl-github'></i></a>
+        <a href="https://www.linkedin.com/in/effie-sarco-5774b3264/"><i class='bx bxl-linkedin'></i></a>
+        <a href="https://www.facebook.com/ocras.eiffe"><i class='bx bxl-facebook'></i></a>
+    </div>
+    <div class="home-img">
+        <img src="./img/img1.JPG" alt="">
+    </div>
     <div class="home-text">
-            <span class="first">Hi, I am</span>
-            <span class="slide">
-                <span class="second">MARIA EFFIE SARCO</span>
-            </span>
+        <h2>Hello, I'm</h2>
+        <h1>MARIA EFFIE SARCO</h1>
+        <h3>Bachelor of Science in Computer Science</h3>
+        <div class="information">
+            <div class="info-box">
+                <i class='bx bxs-phone'></i>
+                <span>+63 912 800 6472</span>
             </div>
-            <br>
-    <div class="p">
-        <span class="p">This is my Portfolio to show all details</span>
+
+            <div class="info-box">
+                <i class='bx bxs-envelope'></i>
+                <span>ocraseiffe19@gmail.com</span>
+            </div>
+        </div>
+        <a href="./pdf/CV.pdf" class="btn">Download CV</a>
     </div>
 </section>
 <!-- Home Section End -->
@@ -48,18 +65,31 @@
         <h2>About Me</h2>
         <span>Introduction</span>
     </div>
+
     <div class="about-container">
         <div class="about-img">
-            <img src="./img/img3.jpg" alt="">
+            <img src="./img/img2.gif" alt="">
         </div>
         <div class="about-text">
-            <p>Hi, Im Maria Effie Sarco a Bachelor of Science in Computer Science</p>
-            <br>
-            <h5>Name: <span class="i">Maria Effie</span></h5> 
-            <h5>Age: <span class="i">22</span></h5>
-            <h5>Nationality: <span class="i">Filipino</span></h5>
-            <br>
-            <a href="./pdf/CV.pdf" class="btn">Download CV</a>
+            <p>Hi, Im Maria Effie Sarco, Bachelor of Science in Computer Science looking for a job that can use my skills in the best
+                possible ways to achieve the company’s goals and gives me the chance to grow professionally and personally.</p>
+            <div class="information">
+                <div class="info-box">
+                    <i class='bx bxs-user'></i>
+                    <span>Name</span>
+                </div>
+
+                <div class="info-box">
+                    <i class='bx bxs-phone'></i>
+                    <span>+1 444 444 4444</span>
+                </div>
+
+                <div class="info-box">
+                    <i class='bx bxs-envelope'></i>
+                    <span>abc@gmail.com</span>
+                </div>
+            </div>
+            <a href="#" class="btn">Download Cv</a>
         </div>
     </div>
 </section>
@@ -73,79 +103,55 @@
         <span>My Skills</span>
     </div>
 
-    <div class="skills-container">
-        <div class="bars">
-
-            <div class="bars-box">
-                <h3>Python</h3>
-                <span>80%</span>
-                <div class="light-bar"></div>
-                <div class="percent-bar html-bar"></div>
-            </div>
-
-            <div class="bars-box">
-                <h3>HTML</h3>
-                <span>50%</span>
-                <div class="light-bar"></div>
-                <div class="percent-bar css-bar"></div>
-            </div>
-
-            <div class="bars-box">
-                <h3>CSS</h3>
-                <span>50%</span>
-                <div class="light-bar"></div>
-                <div class="percent-bar js-bar"></div>
-            </div>
-
-            <div class="bars-box">
-                <h3>JavaScript</h3>
-                <span>45%</span>
-                <div class="light-bar"></div>
-                <div class="percent-bar react-bar"></div>
-            </div>
+    <div class="row">
+        <div class="column left" style="background-color:#aaa;">
+          <h2>Education</h2>
+          <br>
+          <p>Bachelor of</p>
+          
         </div>
-        <div class="skills-img">
-            <img src="main.png" alt="Skill">
+        <div class="column right" style="background-color:#bbb;">
+          <h2>Tools</h2>
+          <p>Some text..</p>
         </div>
-    </div>
+      </div>
+      
+      
 </section>
 <!-- Skills Section End -->
-<!-- cert Section Start -->
-<section class="certificate" id="certificate">
+<!-- Services Section Start -->
+<section class="services" id="services">
     <div class="heading">
-        <h2>Certificate</h2>
-        <span>Cisco Certified Network Associate(CCNA)</span>
+        <h2>Services</h2>
+        <span>Our Services</span>
     </div>
-    <div class="certificate-content">
+    <div class="services-content">
 
-        <div class="certificate-b">
-           <h1>Introduction to Packet Tracer</h1>
-           <br>
-           <a href="./cert/ITC.pdf" class="btn">Download</a>
+        <div class="services-box">
+            <i class='bx bx-code-alt'></i>
+            <h3>Web Development</h3>
+            <a href="#">Learn More</a>
         </div>
 
-        <div class="certificate-b">
-            <h1>Introduction to Network</h1>
-            <br>
-            <a href="./cert/CCNAv7-ITN.pdf" class="btn">Download</a>
+        <div class="services-box">
+            <i class='bx bx-server'></i>
+            <h3>Backend Development</h3>
+            <a href="#">Learn More</a>
+        </div>
+        <div class="services-box">
+            <i class='bx bx-brush'></i>
+            <h3>CCNAv7: Introduction to Networks </h3>
+            <a href="#">Learn More</a>
         </div>
 
-        <div class="certificate-b">
-            <h1>Switching, Routing, and Wireless Essentials</h1>
-            <br>
-            <a href="./cert/CCNAv7-SRWE.pdf" class="btn">Download</a>
-        </div>
-
-        <div class="certificate-b">
-            <h1>Introduction to Cybersecurity</h1>
-            <br>
-            <a href="./cert/ITC.pdf" class="btn">Download</a>
+        <div class="services-box">
+            <i class='bx bxl-android'></i>
+            <h3>CCNAv7: Switching, Routing, and Wireless Essentials</h3>
+            <a href="./pdf/CV.pdf" class="btn">Download CV</a>
         </div>
     </div>
 </section>
-
-   
-<!-- cert Section End -->
+<!-- Services Section End -->
 
 <!-- Contact Section Start -->
 <section class="contact" id="contact">
@@ -166,10 +172,10 @@
 <div class="footer">
     <h2>Follow Us</h2>
     <div class="footer-social">
-        <a href="https://www.facebook.com/ocras.eiffe"><i class='bx bxl-facebook'></i></a>
+        <a href="#"><i class='bx bxl-facebook'></i></a>
         <a href="#"><i class='bx bxl-twitter'></i></a>
-        <a href="https://github.com/mC-kimT"><i class='bx bxl-github'></i></a>
-        <a href="#"><i class='bx bxl-linkedin'></i></a>
+        <a href="#"><i class='bx bxl-instagram'></i></a>
+        <a href="#"><i class='bx bxl-youtube'></i></a>
     </div>
 
 </div>
@@ -188,7 +194,7 @@
 
 
     <!-- Javascript -->
-    <script src="./CSS/script.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
